@@ -1,0 +1,252 @@
+.App-logo {
+    height: 64px;
+    pointer-events: none;
+    border: 5px solid rgb(17, 16, 16);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .carBody {
+    animation: Speedy-Boi infinite  25s linear;
+    }
+}
+
+.carBody {
+    position: absolute;
+}
+
+.heady {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+    text-shadow: 0px 0px 6px white;
+    font-size: 32px;
+    z-index: 4;
+}
+
+.spoilerTop {
+    border-bottom: 10px solid rgb(109, 9, 139);
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    height:0;
+    transform: rotate(15deg);
+    width: 35px;
+    border-radius: 0 50% 50px 100px;
+    margin: 0 50px -1px -5px;
+    position: absolute;
+    top: -5px;
+    z-index: 3;
+}
+
+.spoiler {
+    width: 6px;
+    height: 20px;
+    transform: skew(40deg);
+    background: rgb(19, 19, 19);
+    border-radius: 0 0;
+    margin: 0 50px -1px 18px;
+    position: absolute;
+    top: 2px;
+    z-index: 2;
+}
+
+.spoilerSupport {
+    width: 2px;
+    height: 10px;
+    transform: skew(0deg);
+    background: rgb(110, 110, 110);
+    border-radius: 0 0;
+    margin: 0 50px -1px 18px;
+    position: absolute;
+    top: 12px;
+}
+
+.depth {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-left: 3px solid transparent;
+    border-right: 5.25px solid transparent;
+    width: 161px;
+    height: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 20px;
+    left: 46px;
+    z-index: 1;
+    margin: 0;
+}
+
+.carTop2 {
+    border-bottom: 23px solid rgb(109, 9, 139);
+    border-left: 30px solid transparent;
+    border-right: 60px solid transparent;
+    height:0;
+    width: 83px;
+    border-radius: 50% 50% 0 0;
+    margin: 0 50px -1px 45px;
+}
+
+.carTop {
+    border-bottom: 20px solid rgb(31, 31, 31);
+    border-left: 10px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 90px;
+    border-radius: 50% 50% 0 0;
+    margin: 0 0px 0 -7px ;
+}
+
+.carShape {
+    border-bottom: 5px solid rgb(109, 9, 139);
+    border-left: 8px solid transparent;
+    border-right: 20px solid transparent;
+    height:0;
+    width: 267px;
+    margin: 0 0 -1px 1px;
+    border-radius: 0 50% 0 0 ;
+}
+
+.carBottom {
+    width: 250px;
+    height: 52px;
+    background-image: linear-gradient(rgb(109, 9, 139), rgb(0,0,0));
+    padding: 10px 10px 0 40px;
+    border-radius: 15px 30px 130px 200px ;
+    border-bottom: 5px solid black;
+    z-index: 2;
+    position: relative;
+}
+
+.headlight {
+    background-color: rgb(235, 216, 46);
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 281px;
+    z-index: 10;
+    border-radius: 5px 5px 5px 200px;
+    border: 2px solid black;
+}
+
+.lightBeam {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 200px solid  rgba(235, 216, 46, 0.1);
+    border-bottom: 20px solid transparent;
+    filter: blur(10px);
+    position: absolute;
+    top: -7px;
+    right: 0;
+    left: 285px;
+    z-index: 11;
+
+}
+
+.backlight {
+    background-color: rgb(255, 9, 9);
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: -5px 0 20px rgb(255, 9, 9);
+    border-radius: 5px 5px 200px 45px;
+    border: 2px solid black;
+}
+
+.fire {
+    width: 152px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 69px;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.fender1{
+    border-top: 5px solid rgba(109, 9, 139, 0.9);
+    position: absolute;
+    top: 4px;
+    left: 42px;
+    right: 0px;
+    width: 70px;
+    height: 50px;
+    border-radius: 50% 50% 0px 0px;
+    background-image: linear-gradient(rgb(46, 9, 58), rgb(0, 0, 0));
+    z-index: 2;
+    box-shadow: -5px 0px 5px black;
+}
+
+.fender2 {
+    border-top: 5px solid rgba(109, 9, 139, 0.9);
+    position: absolute;
+    top: 4px;
+    left: 208px;
+    right: 0px;
+    width: 70px;
+    height: 50px;
+    border-radius: 50% 50% 0px 0px;
+    background-image: linear-gradient(rgb(46, 9, 58), rgb(0, 0, 0));
+    z-index: 1;
+    box-shadow: -5px 0px 5px black;
+}
+
+.exhaust1 {
+  width: 30px;
+  height: 7px;
+  background-image: linear-gradient(rgb(202, 202, 202), rgb(0, 0, 0));
+  position: absolute;
+  top: 68px;
+  left: 5px;
+  z-index: 0;
+  border-radius: 5px 0 0 5px;  
+}
+
+.underglow {
+    height: 1px;
+    width: 250px;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    left: 30px;
+    z-index: 0;
+    box-shadow: 0px 10px 8px rgb(255, 0, 0);
+}
+
+
+
+@keyframes App-logo-spin {
+    from {
+    transform:  rotate(0deg) ;
+    
+    }
+    to {
+    transform: rotate(360deg) ;
+    }
+    
+}
+
+@keyframes Speedy-Boi {
+    from {
+    transform:  translate(-300%) ;
+    
+    }
+    to {
+    transform: translate(300%) ;
+    }
+    
+}
+  
