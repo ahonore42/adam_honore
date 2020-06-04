@@ -33,7 +33,7 @@ const Projects = props => {
                 <div className="pSection">
                     <h2>Tipped</h2>
                     <p>Tipped is a cocktail resource for bartenders build with node, express, and SQL databases. It allows users to create a profile that is protected with authentication, search cocktails and see what ingredients they require along with preparation instructions, save favorite cocktail recipes, and view other user profiles on the site. </p>
-                    <a href="https://github.com/ahonore42/tipped">Tipped</a>
+                    <a href="https://tippedcocktails.herokuapp.com/">Tipped</a>
                 </div>
                 <div className="pSection">
                     <div className="projectPic">
