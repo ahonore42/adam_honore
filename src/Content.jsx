@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 
-import About from './pages/About'
+import About from './pages/LangIcons'
 import Home from './pages/Home'
-import Projects from './pages/Projects'
+import Projects from './pages/TitlebarGridList'
 import Weather from './pages/Weather'
 
 
