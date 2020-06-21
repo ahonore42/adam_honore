@@ -34,6 +34,13 @@ a p:hover {
   text-decoration: underline;
 }
 
+.footTitle {
+  font-family: 'Streamster';
+  font-weight: 900;
+  color: rgb(255, 224, 250);
+  margin: 0 2vw;
+}
+
 .post {
   background-color: rgb(145, 158, 202);
   padding: 10px;
@@ -218,7 +225,7 @@ a img {
 
 
 #iconPack{
-  margin-left: 3.2vw !important;
+  margin: 0 2vw !important;
   display: inline-block;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -237,7 +244,7 @@ a img {
 
 .icon{
   display: inline-block;
-  margin-left: 1vw !important;
+  margin: 0 1vw !important;
   width: 72px;
   height: auto;
 }
@@ -265,6 +272,7 @@ a img {
 .mySkills {
   background-color: rgb(18, 25, 37);
   min-height: 90vh;
+ 
 }
 
 .mySkills p, .mySkills li {
@@ -302,6 +310,11 @@ a img {
   height: 600px;
 }
 
-.MuiButtonBase-root a p {
+a .MuiButtonBase-root p {
   color: black;
+}
+
+.footcon {
+  width: 50px;
+  height: auto;
 }

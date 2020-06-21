@@ -68,11 +68,11 @@ export default function HideAppBar(props) {
                         open={Boolean(anchorEl)}
                         onClose={handleClose}
                     >
-                        <MenuItem onClick={handleClose}><a href="#projects"><p>Projects</p></a></MenuItem>
-                        <MenuItem onClick={handleClose}><a href="#skills"><p>Technical Skills</p></a></MenuItem>
-                        <MenuItem onClick={handleClose}><a href="#contact"><p>Contact Me</p></a></MenuItem>
-                        <MenuItem onClick={handleClose}><a href="#about"><p>About</p></a></MenuItem>
-                        <MenuItem onClick={handleClose}><a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1591281353/adamHonoreResume_yueoap.pdf"><p>Resume</p></a></MenuItem>
+                        <a href="#projects"><MenuItem onClick={handleClose}><p>Projects</p></MenuItem></a>
+                        <a href="#skills"><MenuItem onClick={handleClose}><p>Technical Skills</p></MenuItem></a>
+                        <a href="#contact"><MenuItem onClick={handleClose}><p>Contact Me</p></MenuItem></a>
+                        <a href="#about"><MenuItem onClick={handleClose}><p>About</p></MenuItem></a>
+                        <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1591281353/adamHonoreResume_yueoap.pdf"><MenuItem onClick={handleClose}><p>Resume</p></MenuItem></a>
                     </Menu>
                 </IconButton>
                 

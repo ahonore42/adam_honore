@@ -4,6 +4,7 @@ import SwagWagon from '../SwagWagon'
 import LangIcons from '../pages/LangIcons'
 import phoneicon from '../assets/phoneicon.png'
 import TitlebarGridList from './TitlebarGridList'
+import Footer from './Footer'
 var ReactRotatingText = require('react-rotating-text');
 
 
@@ -218,9 +219,9 @@ const Home = props => {
                     <div className="gridListContainer">
                         <TitlebarGridList />
                     </div>
-                    <p>If you haven't already, take a look at <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1591281353/adamHonoreResume_yueoap.pdf">My Resume</a>.</p>
                 </div>
             </div>
+            <Footer />
         </div>
         
     )
