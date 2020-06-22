@@ -72,7 +72,7 @@ export default function HideAppBar(props) {
                         <a href="#skills"><MenuItem onClick={handleClose}><p>Technical Skills</p></MenuItem></a>
                         <a href="#contact"><MenuItem onClick={handleClose}><p>Contact Me</p></MenuItem></a>
                         <a href="#about"><MenuItem onClick={handleClose}><p>About</p></MenuItem></a>
-                        <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1591281353/adamHonoreResume_yueoap.pdf"><MenuItem onClick={handleClose}><p>Resume</p></MenuItem></a>
+                        <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1592787062/AdamHonoreATS_yhwmne.pdf"><MenuItem onClick={handleClose}><p>Resume</p></MenuItem></a>
                     </Menu>
                 </IconButton>
                 

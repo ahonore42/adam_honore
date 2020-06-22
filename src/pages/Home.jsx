@@ -195,7 +195,7 @@ const Home = props => {
                         </div>
                         <div>
                             <div className="icon2" id="resume">
-                                <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1591281353/adamHonoreResume_yueoap.pdf">
+                                <a target="#" href="https://res.cloudinary.com/ahonore42/image/upload/v1592787062/AdamHonoreATS_yhwmne.pdf">
                                     <img src="https://cdn.onlinewebfonts.com/svg/img_49403.png" alt="resume"></img>
                                 </a>
                             </div>
