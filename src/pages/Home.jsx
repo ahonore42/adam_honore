@@ -88,7 +88,7 @@ const Home = props => {
                         <div className="pSection">
                             <h2>Game Launch</h2>
                             <p>Game Launch is a social media website for gamers, meant to allow gamers to connect with all relevant gamer tags and content streaming services. It allows users to search through an API library of 50,000+ games and view information about them, save favorite games, view other users, add friends, and play free HTML5 games on the website.  </p>
-                            <a target="#" href="https://github.com/ahhttps://game-launch-client.herokuapp.com/"><p>Game Launch</p></a>
+                            <a target="#" href="https://game-launch-client.herokuapp.com/"><p>Game Launch</p></a>
                         </div>
                         <div className="pSection">
                             <div className="projectPic">
