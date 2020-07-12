@@ -318,3 +318,100 @@ a .MuiButtonBase-root p {
   width: 50px;
   height: auto;
 }
+
+@media only screen and (max-width: 1242px) {
+  body {
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    min-width: 320px;
+
+  }
+  .App-header {
+    background-size: 100%;
+    padding: 0;
+  }
+
+  .App-header h1 {
+    font-size: 10vh;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .myTitle {
+    top: 20px;
+    left: auto;
+    right: auto;
+    width: 80%;
+  }
+
+  .myFace {
+    height: 200px;
+    width: auto;
+  }
+
+  .myFaceBack1 {
+    top: 220px;
+    left: 25vw;
+    right: auto;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 100px;
+  }
+
+  .myFaceBack2 {
+    height: 200px;
+    width: 200px;
+    
+  }
+
+  .introText {
+    width: 80%;
+  }
+
+  .project {
+    display: block;
+  }
+
+  #iconPack {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mySkills {
+    padding: 3vh 0;
+  }
+
+  .pSection ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .icons ul {
+    padding: 0;
+  }
+
+  .myContact {
+    display: block;
+    padding: 5vh 0;
+  }
+
+  .tech {
+    font-size: 20px;
+  }
+
+  .myProjects {
+    padding-bottom: 5vh;
+  }
+
+  
+  
+}

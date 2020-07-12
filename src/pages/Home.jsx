@@ -16,7 +16,7 @@ const Home = props => {
             <header className="App-header">
                 <div className="myTitle">
                     <h1>Adam Honoré</h1>
-                    <h2>Full-Stack Software Developer</h2>
+                    <h2>Full Stack Software Developer</h2>
 
                 </div>
                 <div className="myFaceBack1">
@@ -45,7 +45,7 @@ const Home = props => {
                             </div>
                         </div>
                         <div className="pSection">
-                            <h2>Technologies Implemented</h2>
+                            <h2 className="tech">Technologies Implemented</h2>
                             <ul>
                                 <li>HTML5</li>
                                 <li>JavaScript</li>
@@ -69,7 +69,7 @@ const Home = props => {
                             </div>
                         </div>
                         <div className="pSection">
-                            <h2>Technologies Implemented</h2>
+                            <h2 className="tech">Technologies Implemented</h2>
                             <ul>
                                 <li>Node Express</li>
                                 <li>JavaScript</li>
@@ -97,7 +97,7 @@ const Home = props => {
                             </div>
                         </div>
                         <div className="pSection">
-                            <h2>Technologies Implemented</h2>
+                            <h2 className="tech">Technologies Implemented</h2>
                             <ul>
                                 <li>React</li>
                                 <li>MongoDB</li>
@@ -121,7 +121,7 @@ const Home = props => {
                                 <SwagWagon /> 
                         </div>
                         <div className="pSection">
-                            <h2>Technologies Implemented</h2>
+                            <h2 className="tech">Technologies Implemented</h2>
                             <ul>
                                 <li>React</li>
                                 <li>CSS</li>
